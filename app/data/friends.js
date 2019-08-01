@@ -23,7 +23,7 @@ var friends = [{
   },
   {
     "name": "Dax",
-    "photo": "Friendly-Friends-\assets\images\danijela-froki-RqdkfHl0L3A-unsplash.jpg",
+    "photo": "https://github.com/martucazpo/Friendly-Friends-/blob/master/assets/images/danijela-froki-RqdkfHl0L3A-unsplash.jpg?raw=true",
     "scores": [
       "5",
       "3",
@@ -39,7 +39,7 @@ var friends = [{
   },
   {
     "name": "Hester",
-    "photo": "Friendly-Friends-\assets\images\brooke-cagle-HRZUzoX1e6w-unsplash.jpg",
+    "photo": "https://github.com/martucazpo/Friendly-Friends-/blob/master/assets/images/brooke-cagle-HRZUzoX1e6w-unsplash.jpg?raw=true",
     "scores": [
       "3",
       "4",
@@ -55,7 +55,7 @@ var friends = [{
   },
   {
     "name": "Eusebio",
-    "photo": "Friendly-Friends-\assets\images\ayo-ogunseinde-sibVwORYqs0-unsplash.jpg",
+    "photo": "https://github.com/martucazpo/Friendly-Friends-/blob/master/assets/images/ayo-ogunseinde-sibVwORYqs0-unsplash.jpg?raw=true",
     "scores": [
       "4",
       "3",
@@ -71,7 +71,7 @@ var friends = [{
   },
   {
     "name": "Verity",
-    "photo": "Friendly-Friends-\assets\images\jodyhongfilms-GBgp6Iy16lc-unsplash.jpg",
+    "photo": "https://github.com/martucazpo/Friendly-Friends-/blob/master/assets/images/jodyhongfilms-GBgp6Iy16lc-unsplash.jpg?raw=true",
     "scores": [
       "5",
       "5",
@@ -87,7 +87,7 @@ var friends = [{
   },
   {
     "name": "Koko(mangarathusati)",
-    "photo": "Friendly-Friends-\assets\images\hust-wilson-nJHvhXS4C0U-unsplash.jpg",
+    "photo": "https://github.com/martucazpo/Friendly-Friends-/blob/master/assets/images/hust-wilson-nJHvhXS4C0U-unsplash.jpg?raw=true",
     "score": [
       "5",
       "4",

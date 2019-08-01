@@ -436,11 +436,11 @@
     </div>
     <br>
     <div class="text-left">
-        <button type="submit" class="btn btn-primary btn-bg" id="add-btn">Submit Form and Find a Friendly
+        <button type="submit" class="btn btn-primary btn-bg" data-toggle="modal" data-target="#friendlyModal" id="add-btn">Submit Form and Find a Friendly
             Friend!</button>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#friendlyModal" id="myModalButton">
+      <!--  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#friendlyModal" id="myModalButton">
             Push Button to See Results!
-        </button>
+        </button> -->
         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
             aria-hidden="true" id="friendlyModal">
             <div class="modal-dialog modal-lg" role="document">
@@ -581,7 +581,7 @@
             friendsQuery()
 
             $('#friendlyModal').on('show.bs.modal', function (event) {
-  var button = $("#myModalButton") // Button that triggered the modal
+  var button = $("#add-btn") // Button that triggered the modal
   var recipient = button.data('friends') // Extract info from data-* attributes
   // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
   // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.

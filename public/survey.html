@@ -48,7 +48,8 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-header">question</div>
+                <div class="card-header">First Question:</div>
+                <div class="card-text">On a scale of one to five, how do you like oatmeal? One: I cannot abide the stench of it => Five: I could eat it every meal, every day.</div>
                 <div class="card-body">
                     <form role="form">
                         <div class="form-group">
@@ -87,7 +88,8 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-header">question</div>
+                <div class="card-header">Second Question:</div>
+                <div class="card-text">On a scale of one to five, what is your favorite climate? One: Artic => Five: Humid Tropical Jungle</div>
                 <div class="card-body">
                     <form role="form">
                         <div class="form-group">
@@ -126,7 +128,8 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-header">question</div>
+                <div class="card-header">Third Question:</div>
+                <div class="card-text">On a scale of one to five, how do you feel about stairs? One: I never take them, I climb the walls => Five: I never take them, I use the elevator.</div>
                 <div class="card-body">
                     <form role="form">
                         <div class="form-group">
@@ -165,7 +168,8 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-header">question</div>
+                <div class="card-header">Fourth Question:</div>
+                <div class="card-text">On a scale of one to five, cats? One: Foul demons from the pits of Hell => Five: Oh! a Kitty!</div>
                 <div class="card-body">
                     <form role="form">
                         <div class="form-group">
@@ -204,7 +208,8 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-header">question</div>
+                <div class="card-header"> Fifth:</div>
+                <div class="card-text">On a scale of one to five, animal rights? One: a hen is a hen and her mate is a rooster => Five: if Miss Piggy and Kermit are happy let them live in peace</div>
                 <div class="card-body">
                     <form role="form">
                         <div class="form-group">
@@ -243,7 +248,8 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-header">question</div>
+                <div class="card-header">Sixth Question:</div>
+                <div class="card-text">On a scale of one to five, Existentialism? One: is for the underemployed => Five: If I think I am are I?</div>
                 <div class="card-body">
                     <form role="form">
                         <div class="form-group">
@@ -282,7 +288,8 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-header">question</div>
+                <div class="card-header">Seventh Question:</div>
+                <div class="card-text">On a scale of one to five, Armagghedon? One: the end is nigh, be ready for the Zombie Apocolypse => Five: I am opening a 401k</div>
                 <div class="card-body">
                     <form role="form">
                         <div class="form-group">
@@ -321,7 +328,8 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-header">question</div>
+                <div class="card-header">Eighth Question:</div>
+                <div class="card-text">On a scale of one to five, Partying? One: Anytime, anywhere => Five: I would rather read a good book</div>
                 <div class="card-body">
                     <form role="form">
                         <div class="form-group">
@@ -360,7 +368,8 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-header">question</div>
+                <div class="card-header">Ninth Question:</div>
+                <div class="card-text">On a scale of one to five, Friends? One: I really want to meet new people => Five: My mom said if I didn't go out and make some friends she was going to kick me out of the house</div>
                 <div class="card-body">
                     <form role="form">
                         <div class="form-group">
@@ -399,7 +408,8 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-header">question</div>
+                <div class="card-header">Tenth and final Question:</div>
+                <div class="card-text">On a scale of one to five, Are you excited to meet your new friend? One: I'm OK => Five: I am super excited! Lets go!</div>
                 <div class="card-body">
                     <form role="form">
                         <div class="form-group">
@@ -571,10 +581,10 @@
                         //}
                         //friendsQuery()
                         // Question: What does this code do??
-                        //  $.post("/api/friends", newfriend)
-                        //     .then(function (data) {
-                        //     alert("Adding friend...");
-                        //  });
+                         $.post("/api/friends", newfriend)
+                            .then(function (data) {
+                            console.log("Adding friend...");
+                          });
                     });
 
             };

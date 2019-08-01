@@ -7,7 +7,7 @@
 
 var friends = [{
     "name": "Ahmed",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo": "https://github.com/martucazpo/Friendly-Friends-/blob/master/assets/images/aatik-tasneem-7omHUGhhmZ0-unsplash.jpg?raw=true",
     "scores": [
       5,
       1,

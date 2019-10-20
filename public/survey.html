@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="../assets/css/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../assets/javascript/jquery.js"></script>
+    <script src="../assets/css/bootstrap-4.3.1-dist/js/bootstrap.bundle.js"></script>-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+    <title>Survey</title>
+</head>
+
+<body>
+    <div class="row">
+
+        <div class="col-lg-12">
+
+            <div class="card">
+                <div class="card-header">
+                    Add Yourself to Our Friends!
+                </div>
+                <div class="card-body">
+                    <form role="form">
+                        <div class="form-row">
+                            <div class="col-md-6 mb-2">
+                                <input type="text" class="form-control" placeholder="Name" id="name">
+                            </div>
+                            <div class="custom-file col-md-6 mb-2">
+                                <input type="file" class="custom-file-input" id="customFile">
+                                <label class="custom-file-label" for="customFile">Include a Picture</label>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">First Question:</div>
+                <div class="card-text">On a scale of one to five, how do you like oatmeal? One: I cannot abide the stench of it => Five: I could eat it every meal, every day.</div>
+                <div class="card-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="form-check form-check-inline" id="inlineRadioOptions1">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                    id="inlineRadio1" value="1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                    id="inlineRadio2" value="2">
+                                <label class="form-check-label" for="inlineRadio2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                    id="inlineRadio3" value="3">
+                                <label class="form-check-label" for="inlineRadio3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                    id="inlineRadio4" value="4">
+                                <label class="form-check-label" for="inlineRadio4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions1"
+                                    id="inlineRadio5" value="5">
+                                <label class="form-check-label" for="inlineRadio5">5</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">Second Question:</div>
+                <div class="card-text">On a scale of one to five, what is your favorite climate? One: Artic => Five: Humid Tropical Jungle</div>
+                <div class="card-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="form-check form-check-inline" id="inlineRadioOptions2">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                    id="inlineRadio1" value="1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                    id="inlineRadio2" value="2">
+                                <label class="form-check-label" for="inlineRadio2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                    id="inlineRadio3" value="3">
+                                <label class="form-check-label" for="inlineRadio3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                    id="inlineRadio4" value="4">
+                                <label class="form-check-label" for="inlineRadio4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions2"
+                                    id="inlineRadio5" value="5">
+                                <label class="form-check-label" for="inlineRadio5">5</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">Third Question:</div>
+                <div class="card-text">On a scale of one to five, how do you feel about stairs? One: I never take them, I climb the walls => Five: I never take them, I use the elevator.</div>
+                <div class="card-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="form-check form-check-inline" id="inlineRadioOptions3">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions3"
+                                    id="inlineRadio1" value="1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions3"
+                                    id="inlineRadio2" value="2">
+                                <label class="form-check-label" for="inlineRadio2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions3"
+                                    id="inlineRadio3" value="3">
+                                <label class="form-check-label" for="inlineRadio3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions3"
+                                    id="inlineRadio4" value="4">
+                                <label class="form-check-label" for="inlineRadio4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions3"
+                                    id="inlineRadio5" value="5">
+                                <label class="form-check-label" for="inlineRadio5">5</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">Fourth Question:</div>
+                <div class="card-text">On a scale of one to five, cats? One: Foul demons from the pits of Hell => Five: Oh! a Kitty!</div>
+                <div class="card-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="form-check form-check-inline" id="inlineForm4">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions4"
+                                    id="inlineRadio1" value="1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions4"
+                                    id="inlineRadio2" value="2">
+                                <label class="form-check-label" for="inlineRadio2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions4"
+                                    id="inlineRadio3" value="3">
+                                <label class="form-check-label" for="inlineRadio3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions4"
+                                    id="inlineRadio4" value="4">
+                                <label class="form-check-label" for="inlineRadio4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions4"
+                                    id="inlineRadio5" value="5">
+                                <label class="form-check-label" for="inlineRadio5">5</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header"> Fifth:</div>
+                <div class="card-text">On a scale of one to five, animal rights? One: a hen is a hen and her mate is a rooster => Five: if Miss Piggy and Kermit are happy let them live in peace</div>
+                <div class="card-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="form-check form-check-inline" id="inlineForm5">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions5"
+                                    id="inlineRadio1" value="1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions5"
+                                    id="inlineRadio2" value="2">
+                                <label class="form-check-label" for="inlineRadio2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions5"
+                                    id="inlineRadio3" value="3">
+                                <label class="form-check-label" for="inlineRadio3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions5"
+                                    id="inlineRadio4" value="4">
+                                <label class="form-check-label" for="inlineRadio4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions5"
+                                    id="inlineRadio5" value="5">
+                                <label class="form-check-label" for="inlineRadio5">5</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">Sixth Question:</div>
+                <div class="card-text">On a scale of one to five, Existentialism? One: is for the underemployed => Five: If I think I am are I?</div>
+                <div class="card-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="form-check form-check-inline" id="inlineForm6">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions6"
+                                    id="inlineRadio1" value="1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions6"
+                                    id="inlineRadio2" value="2">
+                                <label class="form-check-label" for="inlineRadio2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions6"
+                                    id="inlineRadio3" value="3">
+                                <label class="form-check-label" for="inlineRadio3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions6"
+                                    id="inlineRadio4" value="4">
+                                <label class="form-check-label" for="inlineRadio4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions6"
+                                    id="inlineRadio5" value="5">
+                                <label class="form-check-label" for="inlineRadio5">5</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">Seventh Question:</div>
+                <div class="card-text">On a scale of one to five, Armagghedon? One: the end is nigh, be ready for the Zombie Apocolypse => Five: I am opening a 401k</div>
+                <div class="card-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="form-check form-check-inline" id="inlineForm7">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions7"
+                                    id="inlineRadio1" value="1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions7"
+                                    id="inlineRadio2" value="2">
+                                <label class="form-check-label" for="inlineRadio2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions7"
+                                    id="inlineRadio3" value="3">
+                                <label class="form-check-label" for="inlineRadio3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions7"
+                                    id="inlineRadio4" value="4">
+                                <label class="form-check-label" for="inlineRadio4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions7"
+                                    id="inlineRadio5" value="5">
+                                <label class="form-check-label" for="inlineRadio5">5</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">Eighth Question:</div>
+                <div class="card-text">On a scale of one to five, Partying? One: Anytime, anywhere => Five: I would rather read a good book</div>
+                <div class="card-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="form-check form-check-inline" id="inlineForm8">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions8"
+                                    id="inlineRadio1" value="1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions8"
+                                    id="inlineRadio2" value="2">
+                                <label class="form-check-label" for="inlineRadio2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions8"
+                                    id="inlineRadio3" value="3">
+                                <label class="form-check-label" for="inlineRadio3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions8"
+                                    id="inlineRadio4" value="4">
+                                <label class="form-check-label" for="inlineRadio4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions8"
+                                    id="inlineRadio5" value="5">
+                                <label class="form-check-label" for="inlineRadio5">5</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">Ninth Question:</div>
+                <div class="card-text">On a scale of one to five, Friends? One: I really want to meet new people => Five: My mom said if I didn't go out and make some friends she was going to kick me out of the house</div>
+                <div class="card-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="form-check form-check-inline" id="inlineForm9">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions9"
+                                    id="inlineRadio1" value="1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions9"
+                                    id="inlineRadio2" value="2">
+                                <label class="form-check-label" for="inlineRadio2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions9"
+                                    id="inlineRadio3" value="3">
+                                <label class="form-check-label" for="inlineRadio3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions9"
+                                    id="inlineRadio4" value="4">
+                                <label class="form-check-label" for="inlineRadio4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions9"
+                                    id="inlineRadio5" value="5">
+                                <label class="form-check-label" for="inlineRadio5">5</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">Tenth and final Question:</div>
+                <div class="card-text">On a scale of one to five, Are you excited to meet your new friend? One: I'm OK => Five: I am super excited! Lets go!</div>
+                <div class="card-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <div class="form-check form-check-inline" id="inlineForm10">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions10"
+                                    id="inlineRadio1" value="1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions10"
+                                    id="inlineRadio2" value="2">
+                                <label class="form-check-label" for="inlineRadio2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions10"
+                                    id="inlineRadio3" value="3">
+                                <label class="form-check-label" for="inlineRadio3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions10"
+                                    id="inlineRadio4" value="4">
+                                <label class="form-check-label" for="inlineRadio4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions10"
+                                    id="inlineRadio5" value="5">
+                                <label class="form-check-label" for="inlineRadio5">5</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="text-left">
+        <button type="submit" class="btn btn-primary btn-bg" data-toggle="modal" data-target="#friendlyModal" id="add-btn">Submit Form and Find a Friendly
+            Friend!</button>
+      <!--  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#friendlyModal" id="myModalButton">
+            Push Button to See Results!
+        </button> -->
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true" id="friendlyModal">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Here's A Friend!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="insert-friend"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        $('#customFile').on('change', function () {
+            //get the file name
+            var fileName = $(this).val();
+            //replace the "Choose a file" label
+            $(this).next('.custom-file-label').html(fileName);
+        })
+    </script>
+
+
+
+    <script type="text/javascript">
+        // Question: What does this code do?
+        $(document).on("click", "#add-btn", function (event) {
+            event.preventDefault();
+            var newfriend = {
+                name: $("#name").val().trim(),
+                photo: $("#customFile:input").val(),
+                scores: [
+                    $("[name = inlineRadioOptions1]:checked").val().replace("", " ").trim(),
+                    $("[name = inlineRadioOptions2]:checked").val().replace("", " ").trim(),
+                    $("[name = inlineRadioOptions3]:checked").val().replace("", " ").trim(),
+                    $("[name = inlineRadioOptions4]:checked").val().replace("", " ").trim(),
+                    $("[name = inlineRadioOptions5]:checked").val().replace("", " ").trim(),
+                    $("[name = inlineRadioOptions6]:checked").val().replace("", " ").trim(),
+                    $("[name = inlineRadioOptions7]:checked").val().replace("", " ").trim(),
+                    $("[name = inlineRadioOptions8]:checked").val().replace("", " ").trim(),
+                    $("[name = inlineRadioOptions9]:checked").val().replace("", " ").trim(),
+                    $("[name = inlineRadioOptions10]:checked").val().replace("", " ").trim(),
+                ]
+            };
+            console.log(newfriend);
+            // In this code, jQuery is used to "download" the data from our server
+            // We then dynamically display this content in our table. This is very similar to the group projects you just completed.
+            // It's also very similar to the NYT search application. In fact, I copied a ton of code from there.
+            function friendsQuery() {
+                // The AJAX function uses the URL of our API to GET the data associated with it (initially set to localhost)
+                $.ajax({
+                        url: "/api/friends",
+                        method: "GET"
+                    })
+                    .then(function (friends) {
+                        // Here we then log the tableData to console, where it will show up as an object.
+                        console.log(friends);
+                        console.log("------------------------------------");
+                        //Iterates through properties of object var friendScore = req.body.scores;
+                        var friendScore = newfriend.scores
+                        console.log(friendScore);
+                        //closest matching frined will have a score closest to 0
+                        var matchFriend = 0;
+                        //this sets the worst possible score
+                        var lowestDiff = 50;
+                        //Now call in the data from the Friends array and run the score 
+                        // through each friend and then compare scores
+                        for (var i = 0; i < (friends.length - 1); i++) {
+                            //create a var to compare score
+                            var compareScore = friends[i].scores;
+                            var totalDiff = 0;
+                            //Now compare the score for each friend in the data
+                            for (var j = 0; j < friends.length; j++) {
+                                //And now do the math to compare each question's score between the friends
+                                // use absolute value of current score - the absolute value of compareScore
+                                var eachDiff = Math.abs(parseInt(friendScore[j]) - parseInt(compareScore[
+                                    j]));
+                                //now add the total of each diff to the total diff to get the final friend score
+                                totalDiff = totalDiff + eachDiff;
+                            }
+                            // and set a stop/ best friend 
+                            if (totalDiff < lowestDiff) {
+                                lowestDiff = totalDiff;
+                                matchFriend = [i];
+                            }
+                        }
+                        console.log(friends[matchFriend]);
+                        var friendDiv = $("#insert-friend");
+                        var cardBody = $("<div>");
+                        cardBody.attr("class", "card-body");
+                        var image = $("<img>");
+                        image.attr("style", "height:150px;width:auto")
+                        image.attr("class", "card-image-top");
+                        image.attr("src",friends[matchFriend].photo);
+                        var title = $("<h3>");
+                        title.attr("class", "card-title");
+                        title.text("Your new friend : " + friends[matchFriend].name);
+                        cardBody.append(image, title);
+                        friendDiv.prepend(cardBody);
+                        //});
+                        //};
+                        // Loop through and display each of the customers
+                        /*  for (var i = 0; i < tableData.length; i++) {
+                            // Get a reference to the tableList element and populate it with tables
+                            var tableList = $("#tableList");
+                            // Then display the fields in the HTML (Section Name, Date, URL)
+                            var listItem = $("<li class='list-group-item mt-4'>");
+                            listItem.append(
+                              $("<h2>").text("Table #" + (i + 1)),
+                              $("<hr>"),
+                              $("<h2>").text("ID: " + tableData[i].customerID),
+                              $("<h2>").text("Name: " + tableData[i].customerName),
+                              $("<h2>").text("Email: " + tableData[i].customerEmail),
+                              $("<h2>").text("Phone: " + tableData[i].phoneNumber)
+                            );
+                            tableList.append(listItem);
+                          }*/
+                        // });
+                        //}
+                        //friendsQuery()
+                        // Question: What does this code do??
+                         $.post("/api/friends", newfriend)
+                            .then(function (data) {
+                            console.log("Adding friend...");
+                          });
+                    });
+
+            };
+            friendsQuery()
+
+            $('#friendlyModal').on('show.bs.modal', function (event) {
+  var button = $("#add-btn") // Button that triggered the modal
+  var recipient = button.data('friends') // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find('#insert-friends input').val(recipient)
+})
+
+        
+        });
+    </script>
+
+</body>
+
+</html>

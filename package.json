@@ -19,7 +19,7 @@
   "homepage": "https://github.com/martucazpo/Friendly-Friends-#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "path": "^0.12.7"
   }
 }
